@@ -34,9 +34,20 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a.footer-link:hover {
   color: #EAF6F6;
 }
+
+.abold {
+
+font-family: 'Montserrat', sans-serif, bold;
+ margin-top:550px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align:center;
+
+}
+
 
 .normalfont {}
 
@@ -155,4 +166,16 @@ p {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding : 20px 0;
+}
+
+
+.exp-row
+{
+text-align:center;
+padding: 5 5 5;
+}
+
+a.slc:hover {
+  color: red;
+  text-decoration:underline
 }
